@@ -1,0 +1,60 @@
+nav {
+    background-color: darkslategrey;
+    color: #fff;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+nav li a:hover {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.footer-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: black;
+    color: white;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    color: red;
+}
+
+.nav-profile{
+    background-color: red;
+}
+
+.nav-profile a:hover{
+    color: yellow;
+    text-decoration: none;
+}
